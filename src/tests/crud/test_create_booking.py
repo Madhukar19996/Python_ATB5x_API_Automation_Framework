@@ -55,7 +55,7 @@ class TestCreateBooking(object):
             url=APIConstants().url_create_booking(),
             auth=None,
             headers=Utils().common_headers_json(),
-            payload={"name": "pramod"},
+            payload={"name": "Pushkar"},
             in_json=False
         )
         verify_http_status_code(response_data=response, expected_data=500)

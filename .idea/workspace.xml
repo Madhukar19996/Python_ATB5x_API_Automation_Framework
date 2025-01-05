@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="05-01-2024 files are committed">
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Sample/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/API_requests_Wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/API_requests_Wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sample/test_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="05-01-2024 files are committed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -203,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736065387585</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="05-01-2024 files are committed">
+      <option name="closed" value="true" />
+      <created>1736089813291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736089813291</updated>
+    </task>
+    <task id="LOCAL-00008" summary="05-01-2024 files are committed">
+      <option name="closed" value="true" />
+      <created>1736089894772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736089894772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

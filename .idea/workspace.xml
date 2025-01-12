@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="05-01-2024 files are committed">
-      <change afterPath="$PROJECT_DIR$/src/helpers/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Sample.py" afterDir="false" />
+    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="11-01-2024 files are committed">
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Full.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task2_Create_Delete_Booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task3_CreateBooking_Update_Patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task4_GetBooking_Delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task5_Update_DeletedBooking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task6_Update_Booking_WO_Token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task7_Update_Invalid_PUT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/API_Contants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/API_Contants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +49,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/tests/E2E/test_Task7_Update_Invalid_PUT.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/tests/Sample/test_sample.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/tests/crud/test_create_booking.py" root0="SKIP_INSPECTION" />
   </component>
@@ -62,10 +70,12 @@
     "Python tests.Python tests for test_E2E_Complete.TestE2E.executor": "Run",
     "Python tests.Python tests for test_E2E_Complete.TestE2E.test_update_booking_with_id_token.executor": "Run",
     "Python tests.Python tests for test_E2E_Sample.TestE2E.test_update_booking_with_id_token.executor": "Run",
+    "Python tests.Python tests for test_Task2_Create_Delete_Booking.Test_create_Delete_Booking.test_create_delete_booking.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestCreateBooking.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_negative_tc_1.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive.executor": "Run",
     "Python tests.Python tests for test_sample.test_sample.executor": "Run",
+    "Python tests.Python tests in test_Task7_Update_Invalid_PUT.py.executor": "Run",
     "Python.conftest.executor": "Run",
     "Python.payload_manager.executor": "Run",
     "Python.test_sample.executor": "Run",
@@ -137,6 +147,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Task2_Create_Delete_Booking.Test_create_Delete_Booking.test_create_delete_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectATB5xAPIAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/E2E" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Task2_Create_Delete_Booking.Test_create_Delete_Booking.test_create_delete_booking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_negative_tc_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectATB5xAPIAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -152,28 +177,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProjectATB5xAPIAutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/crud" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.TestCreateBooking.test_create_booking_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Task2_Create_Delete_Booking.Test_create_Delete_Booking.test_create_delete_booking" />
         <item itemvalue="Python tests.Python tests for test_E2E_Complete.TestE2E.test_update_booking_with_id_token" />
         <item itemvalue="Python tests.Python tests for test_E2E_Sample.TestE2E.test_update_booking_with_id_token" />
         <item itemvalue="Python tests.Python tests for test_E2E_Complete.TestE2E" />
         <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_negative_tc_1" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736090023336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="11-01-2024 files are committed">
+      <option name="closed" value="true" />
+      <created>1736584997411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736584997411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +299,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05-01-2024 files are committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="05-01-2024 files are committed" />
+    <MESSAGE value="11-01-2024 files are committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-01-2024 files are committed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,7 +312,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py</url>
-          <line>10</line>
+          <line>16</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

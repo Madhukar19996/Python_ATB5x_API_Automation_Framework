@@ -26,3 +26,11 @@ def verify_json_key_gr_zero(key):
 
 def verify_response_delete(response):
     assert "Created" in response
+
+# Verify the response while  updating  a booking id without entering the token
+def verify_response_update_WO_token(response):
+    assert "Forbidden" in response
+
+# Verify the response text  while giving any invalid HTTP request  -Bad Request
+def verify_bad_request_error(response):
+    assert "Bad Request" in response

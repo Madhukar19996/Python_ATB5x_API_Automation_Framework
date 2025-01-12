@@ -37,6 +37,15 @@ def payload_update_booking():
     return payload
 
 
+def payload_update_booking_patch():
+    payload = {
+        "firstname": "Pushkar",
+        "lastname": "Pandey"
+    }
+    return payload
+
+
+
 def payload_create_token():
     load_dotenv()
 

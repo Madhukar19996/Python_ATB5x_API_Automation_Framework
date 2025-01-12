@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="11-01-2024 files are committed">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Full.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task2_Create_Delete_Booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task3_CreateBooking_Update_Patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task4_GetBooking_Delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task5_Update_DeletedBooking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task6_Update_Booking_WO_Token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/E2E/test_Task7_Update_Invalid_PUT.py" afterDir="false" />
+    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="12-01-2024 files are committed">
+      <change afterPath="$PROJECT_DIR$/VWO_Pages/Login_page_WVO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VWO_Pages/Signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VWO_Pages/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/API_Contants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/API_Contants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/E2E/test_E2E_Complete.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +73,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Madhukar Pandey/PycharmProjects/pythonProjectATB5xAPIAutomationFramework/src/tests/E2E",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,6 +81,7 @@
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\pythonProjectATB5xAPIAutomationFramework\src\tests\E2E" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Madhukar Pandey\PycharmProjects\pythonProjectATB5xAPIAutomationFramework\VWO_Pages" />
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\pythonProjectATB5xAPIAutomationFramework\src\tests\Sample" />
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\pythonProjectATB5xAPIAutomationFramework" />
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\pythonProjectATB5xAPIAutomationFramework\vemp" />
@@ -283,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736584997411</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12-01-2024 files are committed">
+      <option name="closed" value="true" />
+      <created>1736671534951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736671534951</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +299,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05-01-2024 files are committed" />
     <MESSAGE value="11-01-2024 files are committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-01-2024 files are committed" />
+    <MESSAGE value="12-01-2024 files are committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-01-2024 files are committed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

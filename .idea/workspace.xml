@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="12-01-2024 files are committed">
-      <change afterPath="$PROJECT_DIR$/VWO_Pages/Login_page_WVO.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VWO_Pages/Signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VWO_Pages/logo.png" afterDir="false" />
+    <list default="true" id="d807e0f1-dbcc-4bdf-95bd-33a3c8130c63" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736671534951</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="12-01-2024 files are committed">
+      <option name="closed" value="true" />
+      <created>1736675665726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736675665726</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1736675958826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736675958826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +313,8 @@
     <MESSAGE value="05-01-2024 files are committed" />
     <MESSAGE value="11-01-2024 files are committed" />
     <MESSAGE value="12-01-2024 files are committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="12-01-2024 files are committed" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
